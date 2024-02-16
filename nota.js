@@ -75,8 +75,8 @@ function validarNumero(numero) {
         setTimeout(function(){
             aviso.textContent = ''
             aviso.classList.remove('alerta')
-        }, 2000);   //A mensagem de aviso vai aparecer e desaparecer em segundos por causa do FLASH MESSAGE, ou seja mensagem rápida//
-    }
+        }, 2000);   //A mensagem de aviso rápida por causa do FLASH MESSAGE//
+      }
 }
       //Calcular média após clicar no botão//
     btnCalcular.addEventListener('click', function(e) {
